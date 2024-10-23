@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciamento de Ocupação</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Gestão de Hospedagem</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="gerenciar-acomodacoes.html">Cadastro</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="ocupacao.html">Ocupação</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagamentos.html">Pagamentos</a></li>
+          <li class="nav-item"><a class="nav-link" href="suporte.html">Suporte</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <h2>Gerenciamento de Ocupação</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Nome da Acomodação</th>
+          <th scope="col">Capacidade Total</th>
+          <th scope="col">Vagas Ocupadas</th>
+          <th scope="col">Vagas Disponíveis</th>
+          <th scope="col">Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hotel Rio</td>
+          <td>120</td>
+          <td>85</td>
+          <td>35</td>
+          <td><button class="btn btn-info">Ver Relatório</button></td>
+        </tr>
+        <tr>
+          <td>Navio Estrela do Mar</td>
+          <td>80</td>
+          <td>60</td>
+          <td>20</td>
+          <td><button class="btn btn-info">Ver Relatório</button></td>
+        </tr>
+        <tr>
+          <td>Espaço Adaptado - Ginásio</td>
+          <td>150</td>
+          <td>100</td>
+          <td>50</td>
+          <td><button class="btn btn-info">Ver Relatório</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
